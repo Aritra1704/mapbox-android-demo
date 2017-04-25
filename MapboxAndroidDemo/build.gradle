@@ -82,4 +82,5 @@ dependencies {
   compile 'com.squareup.retrofit2:converter-gson:2.2.0'
 }
 
+apply from: '../gradle-config.gradle'
 apply from: '../checkstyle.gradle'
